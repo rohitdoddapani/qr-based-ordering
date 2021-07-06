@@ -54,7 +54,7 @@ class Main extends Component {
         return (
             <div>
                 <BrowserRouter >
-                    <Route path={'/' + this.state.restaurant + '/' + this.state.table + '/promotions'} component={() => <Promotion restaurant={this.state.restaurant} table={this.state.table} menu={this.state.menu} />} />
+                    {/* <Route path={'/' + this.state.restaurant + '/' + this.state.table + '/promotions'} component={() => <Promotion restaurant={this.state.restaurant} table={this.state.table} menu={this.state.menu} />} /> */}
                     <Route path={'/' + this.state.restaurant + '/' + this.state.table + '/cart'} component={() => <Cart restaurant={this.state.restaurant} table={this.state.table} cart={this.state.cart} tax={this.state.tax} />} />
                     <Route path={'/' + this.state.restaurant + '/' + this.state.table + '/menu'} component={() => <Menu restaurant={this.state.restaurant} table={this.state.table} menu={this.state.menu} currentCategory={this.props.currentCategory} />} />
                     <Route path={'/' + this.state.restaurant + '/' + this.state.table + '/orderHistory'} component={() => <OrderHistory restaurant={this.state.restaurant} table={this.state.table} orders={this.state.orders} tax={this.state.tax} />} />

@@ -8,8 +8,6 @@ import Table from '../screens/Table';
 import Orders from './../screens/Orders';
 
 
-
-
 const config = Platform.select({
   web: { headerMode: 'screen' },
   //default: {},
